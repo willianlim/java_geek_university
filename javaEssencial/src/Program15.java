@@ -26,5 +26,9 @@ public class Program15 {
         // float division
         res2 = (float)num2 / (float)num1;
         System.out.println("The multiplication of " + num2 + " / " + num1 + " é " + res2);
+
+        // module
+        res = num2 % 2;
+        System.out.println("The rest of the division " + num2 + " % " + 2 + " é " + res);
     }
 }
