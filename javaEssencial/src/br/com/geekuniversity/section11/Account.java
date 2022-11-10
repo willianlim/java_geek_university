@@ -1,10 +1,10 @@
 package br.com.geekuniversity.section11;
 
 public class Account {
-    int number;
+    private int number;
     private float balance;
     private float limit;
-    Client client;
+    private Client client;
 
     public Account(int number, float balance, float limit, Client client) {
         this.number = number;
@@ -13,7 +13,7 @@ public class Account {
         this.client = client;
     }
 
-    void withdraw(float value) {
+    public void withdraw(float value) {
         if (value <= this.balance) {
             this.balance -= value;
         } else if(value <= (this.balance + this.limit)) {
@@ -26,15 +26,15 @@ public class Account {
         }
     }
 
-    void deposit(float value) {
+    public void deposit(float value) {
         this.balance = this.balance + value;
     }
 
-    float getBalance() {
+    public float getBalance() {
         return (this.balance + this.limit);
     }
 
-    float getLimit() {
+    public float getLimit() {
         return (this.limit);
     }
 }
