@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section07;
+
 /**
  * Matrices part 2
  */

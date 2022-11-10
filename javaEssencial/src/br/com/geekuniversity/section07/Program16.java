@@ -1,4 +1,4 @@
-/*
+package br.com.geekuniversity.section07;/*
  * Vectors part 1
  */
 

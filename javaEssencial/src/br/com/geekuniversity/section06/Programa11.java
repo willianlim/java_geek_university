@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section06;
+
 /*
  * Tipos de dados (Inteiros e Reais)
 */

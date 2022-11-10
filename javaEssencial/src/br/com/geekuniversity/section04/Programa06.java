@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section04;
+
 public class Programa06 {
 	public static void main(String[] args) {
 		int	numero = 1;

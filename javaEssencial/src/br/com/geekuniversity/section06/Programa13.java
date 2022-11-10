@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section06;
+
 /*
  * Tipos de dados alfanuméricos
  * caracteres e strings

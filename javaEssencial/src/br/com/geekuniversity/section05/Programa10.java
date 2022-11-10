@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section05;
+
 /*
  * foreach (para cada)
 */

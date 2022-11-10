@@ -1,4 +1,4 @@
-/*
+package br.com.geekuniversity.section05;/*
  * Condição de repetição "for"
 */
 import java.util.Scanner;

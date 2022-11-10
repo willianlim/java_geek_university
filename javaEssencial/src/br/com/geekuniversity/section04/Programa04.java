@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section04;
+
 public class Programa04 {
 	public static void main(String[] args) {
 		/* Declarando e inicializando a variável */

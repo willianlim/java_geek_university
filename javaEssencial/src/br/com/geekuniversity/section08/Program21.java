@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section08;
+
 public class Program21 {
     public static void main(String[] args) {
         int value1 = 6, value2 = 4, res;

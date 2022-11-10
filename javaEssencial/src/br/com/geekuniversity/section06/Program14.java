@@ -1,4 +1,4 @@
-/*
+package br.com.geekuniversity.section06;/*
  * Boolean types
  */
 

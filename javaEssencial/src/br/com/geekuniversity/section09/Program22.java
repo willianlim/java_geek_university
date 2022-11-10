@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section09;
+
 public class Program22 {
     public static void main(String[] args) {
         int number = 4;

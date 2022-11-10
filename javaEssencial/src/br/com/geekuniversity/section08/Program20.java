@@ -1,3 +1,5 @@
+package br.com.geekuniversity.section08;
+
 import java.util.Scanner;
 
 public class Program20 {

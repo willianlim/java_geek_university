@@ -1,4 +1,4 @@
-/*
+package br.com.geekuniversity.section06;/*
  * Math Operations
  */
 
