@@ -15,4 +15,10 @@ public class People {
         this.email = email;
         this.birth_date = birth_date;
     }
+
+    void print_information() {
+        System.out.println("Name: " + this.name);
+        System.out.println("E-mail: " + this.email);
+        System.out.println("Birth Date: " + this.birth_date);
+    }
 }
