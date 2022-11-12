@@ -52,4 +52,6 @@ public abstract class People {
     public void message(String msg, int num) {
         System.out.println(msg + num);
     }
+
+    public abstract void another_message(String text);
 }

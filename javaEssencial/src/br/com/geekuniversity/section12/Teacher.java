@@ -20,6 +20,11 @@ public class Teacher extends People{
         return (super.toString() + "\nRegistration: " + this.registration);
     }
 
+    @Override
+    public void another_message(String text) {
+        System.out.println(text);
+    }
+
     public String getName() {
         return ("Teacher: " + super.getName());
     }
