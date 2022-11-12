@@ -34,4 +34,8 @@ public class People {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String toString() {
+        return ("Name: " + this.name + "\nBirth Date: " + this.birthDate);
+    }
 }

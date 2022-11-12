@@ -15,4 +15,12 @@ public class Teacher extends People{
     public void setRegistration(String registration) {
         this.registration = registration;
     }
+
+    public String toString() {
+        return (super.toString() + "\nRegistration: " + this.registration);
+    }
+
+    public String getName() {
+        return ("Teacher: " + super.getName());
+    }
 }

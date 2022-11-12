@@ -15,4 +15,12 @@ public class Student extends People {
     public void setRa(String ra) {
         this.ra = ra;
     }
+
+    public String toString() {
+        return (super.toString() + "\nR.A: " + this.ra);
+    }
+
+    public String getName() {
+        return ("Student: " + super.getName());
+    }
 }
