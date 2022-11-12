@@ -5,6 +5,8 @@ public class People {
     private int birthDate;
     private String email;
 
+    public People() {}
+
     public People(String name, int birthDate, String email) {
         this.name = name;
         this.birthDate = birthDate;
@@ -37,5 +39,17 @@ public class People {
 
     public String toString() {
         return ("Name: " + this.name + "\nBirth Date: " + this.birthDate);
+    }
+
+    public void message() {
+        System.out.println("This is my message ...");
+    }
+
+    public void message(String msg) {
+        System.out.println(msg);
+    }
+
+    public void message(String msg, int num) {
+        System.out.println(msg + num);
     }
 }
