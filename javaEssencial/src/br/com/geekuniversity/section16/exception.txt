@@ -1,0 +1,18 @@
+When we talk about exceptions in java, we have to understand as follows.
+There are two groups of exceptions.
+
+1º Checked Exceptions: (less dangerous)
+Checked exceptions cause the program not to run until the given exception
+is handled.
+
+- Exception
+- IOException
+- SQLException
+
+2º Unchecked Exceptions: (more dangerous)
+They only happen during the execution of the program and therefore we have
+no way of knowing, in most cases, where it may occur.
+
+- RuntimeException
+- NullPointerException
+- ArrayOutOfBoundsException
