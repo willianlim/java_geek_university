@@ -28,10 +28,20 @@ public class Account {
         }
     }
 
+    /**
+     * Method to make a deposit
+     *
+     * @param value To be deposited
+     */
     public void deposit(float value) {
         this.balance = this.balance + value;
     }
 
+    /**
+     * Method getter of the balance attribute
+     *
+     * @return The sum of the balance plus the limit
+     */
     public float getBalance() {
         return (this.balance + this.limit);
     }
