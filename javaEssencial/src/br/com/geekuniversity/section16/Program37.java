@@ -16,6 +16,8 @@ public class Program37 {
             System.out.println("The division of " + number1 + " by "+ number2 + " is " + number1/number2);
         } catch (ArithmeticException e) {
             System.out.println("There is no division by 0.");
+        } finally {
+            System.out.println("Do that too ...");
         }
         input.close();
     }

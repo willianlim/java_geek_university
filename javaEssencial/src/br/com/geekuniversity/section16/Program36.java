@@ -13,6 +13,8 @@ public class Program36 {
                 System.out.println(numbers[i]);
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("You are trying to access an array position does not exist.");
+            } finally {
+                System.out.println("Continue the process ...");
             }
 
         }
