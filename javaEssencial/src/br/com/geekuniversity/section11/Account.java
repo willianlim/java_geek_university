@@ -23,6 +23,8 @@ public class Account {
             val_ret += this.limit;
             this.limit = val_ret;
             System.out.println("Insufficient funds");
+        } else {
+            System.out.println("Insufficient funds.");
         }
     }
 
