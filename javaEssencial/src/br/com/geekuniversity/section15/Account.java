@@ -26,4 +26,8 @@ public class Account {
     public void setClient(String client) {
         this.client = client;
     }
+
+    public static int nextAccount() {
+        return (Account.counter);
+    }
 }
