@@ -6,6 +6,10 @@ public class Account {
     private float limit;
     private Client client;
 
+    public Account() {
+
+    }
+
     public Account(int number, float balance, float limit, Client client) {
         this.number = number;
         this.balance = balance;
@@ -48,5 +52,20 @@ public class Account {
 
     public float getLimit() {
         return (this.limit);
+    }
+
+    @Override
+    public String toString() {
+        return ("The account balance is: " + this.getBalance());
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (!(object instanceof Account)) {
+            return (false);
+        } else {
+            Account check = (Account) object;
+            return check.getBalance() == this.getBalance();
+        }
     }
 }

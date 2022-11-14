@@ -1,6 +1,6 @@
 package br.com.geekuniversity.section11;
 
-public class Client {
+public class Client extends Account {
     private String name;
     private String address;
 
