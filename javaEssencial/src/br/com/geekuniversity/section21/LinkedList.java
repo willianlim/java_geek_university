@@ -10,12 +10,14 @@ public class LinkedList {
      * @param element
      */
     public void addAtTheBeginning(Object element) {
-        // TODO
-        Cell newCell = new Cell(element, this.first);
-        this.first = newCell;
-
         if (this.total == 0) {
-            this.last = this.first;
+            Cell newCell = new Cell(element);
+            this.first = newCell;
+            this.last = newCell;
+        } else {
+            Cell newCell = new Cell(element, this.first);
+            this.first.setPrevious(newCell);
+            this.first = newCell;
         }
         this.total++;
     }
@@ -30,6 +32,7 @@ public class LinkedList {
         } else {
             Cell newCell = new Cell(element, null);
             this.last.setNext(newCell);
+            newCell.setPrevious(this.last);
             this.last = newCell;
             this.total++;
         }
@@ -42,8 +45,12 @@ public class LinkedList {
             this._add(element);
         } else {
             Cell previous = this.takeCell(position - 1);
+
+            Cell next = previous.getNext();
+
             Cell newCell = new Cell(element, previous.getNext());
             previous.setNext(newCell);
+            newCell.setPrevious(previous);
             this.total++;
         }
     }
